@@ -18,14 +18,18 @@
 		<div class="row">
 			<div class="col-md-12">
 				<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC0CB;">
-				  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 
 				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav mr-auto">
-				      <li class="nav-item">
+
+				    	<li class="nav-item">
 				        <a class="nav-link text-dark" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-dark" href="contact.html">Contact</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link text-dark" href="about.html">About me</a>
@@ -38,7 +42,7 @@
 				          <a class="dropdown-item" href="cards.html">Perzonalized cards/invitations</a>
 				          <a class="dropdown-item" href="decorations.html">Decorations</a>
 				          <div class="dropdown-divider"></div>
-				          <a class="dropdown-item" href="sweets.html">Sweets</a>
+				          <a class="dropdown-item disabel">Sweets</a>
 				        </div>
 				      </li>
 				    </ul>
@@ -52,45 +56,45 @@
 		</div>
 
 		<div class="row mt-5">
-			<div class="col-md-3"><!--White space--></div>	
+			<div class="col-md-12">
+				<table class="table">
+				  <thead class="thead-dark">
+				    <tr>
+				      <th scope="col">Custom sweets</th>
+				      <th scope="col">price</th>
+				      <th scope="col">options</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th><img src="img/sweet1.png" width="275" height="183"></th>
+				      <td>5$</td>
+				      <td>
+				      	<button class="btn btn-success">Add to Car</button>
+				      	<button class="btn btn-primary"> Add to Wishlist</button>
+				      </td>
+				    </tr>
 
-			<div class="col-md-6">
-				<div class="card text-center shadow p-3 mb-5 bg-white rounded border-dark mb-3">
-				  <h5 class="card-header">Contact me.</h5>
-				  <div class="card-body">
-					<form>
-						<div class="form-group">
-							<div class="row">
-							    <div class="col">
-							      <input type="text" class="form-control" placeholder="First name">
-							    </div>
-							    <div class="col">
-							      <input type="text" class="form-control" placeholder="Last name">
-							    </div>
-							</div>
-						</div>
+				    <tr>
+				      <th><img src="img/sweet2.png" width="275" height="183"></th>
+				      <td>5$</td>
+				      <td>
+				      	<button class="btn btn-success">Add to Car</button>
+				      	<button class="btn btn-primary"> Add to Wishlist</button>
+				      </td>
+				    </tr>
 
-					  	<div class="form-group">
-							<div class="row">
-							    <div class="col">
-							      <input type="text" class="form-control" placeholder="Phone number.">
-							    </div>
-							    <div class="col">
-							      <input type="text" class="form-control" placeholder="email@exemple.com">
-							</div>
-					  	</div>
-
-						<div class="form-group mt-4">
-						    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tap here you message (Max characters 500.)" rows="3"></textarea>
-						</div>
-
-					  	<button type="submit" class="btn btn-dark btn-large mx-auto">Send message.</button>
-					</form>
-				  </div>
-				</div>
+				    <tr>
+				      <th><img src="img/sweet3.png" width="275" height="183"></th>
+				      <td>5$</td>
+				      <td>
+				      	<button class="btn btn-success">Add to Car</button>
+				      	<button class="btn btn-primary"> Add to Wishlist</button>
+				      </td>
+				    </tr>
+				  </tbody>
+				</table>
 			</div>
-
-			<div class="col-md-3"><!--White space--></div>
 		</div>
 	</div>
 	<!--JavaScript-->
